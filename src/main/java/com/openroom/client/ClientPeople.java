@@ -36,7 +36,7 @@ public final class ClientPeople
             = new ClassPathXmlApplicationContext(new String[] {"client-beans.xml"});
         PeopleWebService client = (PeopleWebService)context.getBean("clientPeople");
 
-        List <People> peopleList = client.searchByNameAndBrith("уехЩ","199%");        
+        List <People> peopleList = client.searchByNameAndBrith("leo","199%");        
         showResult(peopleList);
         
         System.exit(0);
