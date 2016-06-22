@@ -4,8 +4,8 @@
          http://maven.apache.org/maven-v4_0_0.xsd">
   
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.openroom</groupId>
-	<artifactId>webservice</artifactId>
+	<groupId>com.elasticbeanstalk.us-east-1</groupId>
+	<artifactId>leoopen</artifactId>
 	<packaging>war</packaging>
 	<version>1.2</version>
 	<name>Webservice Maven Webapp</name>
